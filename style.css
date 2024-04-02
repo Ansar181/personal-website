@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.orange-text{
+    color: orange;
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.Link-button{
+    text-decoration: none;
+    background-image: orange;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+.half img{
+    width: 100%;
+}
