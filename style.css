@@ -1,5 +1,5 @@
 body{
-    margin: 0px;
+    
     font-family: "Roboto", sans-serif;
 }
 .orange-text{
@@ -13,20 +13,33 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+    color: gray;
+}
+
 .half{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.Link-button{
-    text-decoration: none;
-    background-image: orange;
+
+.link-button{
+    text-decoration:none;
+    background-image:linear-gradient(180deg,orange,orange);
     border-radius: 10px;
     padding: 10px 20px;
     color: white;
     font-weight: bold;
 }
-.half img{
-    width: 100%;
+
+
+.top{
+    background-image: url("/personal-website/header-bg.png");
+    background-repeat: no-repeat;
+}
+img{
+    import img1 from '../profile-1.png';
+    height: 120%;
+    width: 120%;
 }
